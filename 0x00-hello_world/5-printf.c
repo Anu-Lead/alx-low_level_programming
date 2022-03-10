@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Return: 0
+ * main - Print text without error
+ *
+ * Return: 0 without errors
  */
 int main(void)
 {
-	printf("with propergrammer, but the outcome is a piece of art,\n);
-	return (0);
+	print("with propergrammer, but the outcome is a piece of art,\n")
+		return (0)
 }

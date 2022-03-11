@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Print text without error
- *
- * Return: 0 without errors
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	print("with propergrammer, but the outcome is a piece of art,\n")
-		return (0)
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }

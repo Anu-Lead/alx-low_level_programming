@@ -1,17 +1,21 @@
 #include "main.h"
-/**
- * print_alphabet - check the code for abcd
- * Description: Print the lowercase alphabeth with _putchar
- * Return: void
- */
-void print_alphabet(void)
-{
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
 
-	for (i = 0; i <= 26; i++)
+/**
+ * print_alphabet - this prints a - z
+ *
+ * Return: Always 0.
+ */
+
+int print_alphabet(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		putchar(alphabet[i]);
+		_putchar(c);
+		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
+
+	return (0);
 }

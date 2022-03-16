@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_alphabet - check the code for abcd
  * Description: Print the lowercase alphabeth with _putchar

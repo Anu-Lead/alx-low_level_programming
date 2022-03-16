@@ -1,22 +1,2 @@
-#include "main.h"
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)*
- */
-void main(void)
-
-{
-	putchar('H');
-	putchar('o');
-	putchar('l');
-	putchar('b');
-	putchar('e');
-	putchar('r');
-	putchar('t');
-	putchar('o');
-	putchar('n');
-	putchar('\n');
-	return (0);
-}
+int _putchar(char c);
+void print_alphabet(void);

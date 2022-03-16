@@ -5,13 +5,13 @@
  * Description: Print the alphabeth with _putchar
  * Return: Always 0.
  */
-int main(void)
+void print_alphabeth(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
+		_putchar(c);
 	}
-	putchar('\n');
+	_putchar('\n');
 }

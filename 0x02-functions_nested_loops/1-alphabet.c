@@ -1,19 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
-/**
- * print_alphabet - check the code for abcd
- * Description: Print the lowercase alphabeth with _putchar
- * Return: void
- */
-int print_alphabet(void)
-{
-	char c = 'a';
 
-	while (c <= 'z')
+/**
+* print_alphabet - This is a print_alphabet function
+*
+* Return: Always 0 (Success)
+*/
+
+void print_alphabet(void)
+{
+	int x;
+
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		_putchar(c);
-		c++;
+		_putchar(x);
 	}
 	_putchar('\n');
-
-	return (0);
 }
